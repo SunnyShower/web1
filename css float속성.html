@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>float 속성</title>
+    <style>
+        .container{
+            width:960px;
+            margin:0 auto /*위아래 여백0 중앙정렬*/
+        }
+        .header{height:20px;background-color:red}
+        .nav {
+            height: 20px;background-color:green
+        }
+        .footer {
+            height: 20px;background-color:blue}
+
+        .center{overflow:hidden;}
+        .aside {
+            height: 200px;background-color:mediumpurple
+        ;float: left;  width:30% 
+                }
+        .section {
+            height: 200px;background-color:black;
+            float:left;width:70%
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header"></div>
+        <div class="nav"></div>
+        <div class="center">
+            <div class="aside"></div>
+            <div class="section"></div>
+        </div>
+        <div class="footer"></div>
+    </div>
+</body>
+</html>
